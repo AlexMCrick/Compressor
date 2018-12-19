@@ -37,7 +37,7 @@ public class Compressor {
         ArrayList<String> finalText = new ArrayList<String>();
         for (int i = 0; i < keyCount; i++) {
             if (i < words.size()) {
-                if (words.get(i).count >= 3 && words.get(i).value.length() <= 5) {
+                if (words.get(i).count >= 5 && words.get(i).value.length() <= 3) {
                     termArray.add(words.get(i).value);
                 }
             }
